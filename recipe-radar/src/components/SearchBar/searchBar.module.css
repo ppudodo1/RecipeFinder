@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    flex-direction: column;
+}
+.inputBar{
+    height: 20px;
+    width: 280px;
+    border: 1px solid #35A07C;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.searchButton{
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    border: 1px solid #35A07C;
+    border-radius: 10px;
+    transition: 0.4s all;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.searchButton:hover{
+    transform: scale(1.2);
+    background-color: #35A07C;
+    border: 1px solid white;
+    color: white;
+}
+.addButton{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: 1px solid #35A07C;
+    border-radius: 50%;
+    transition: 0.4s all;
+    margin-left: 10px;
+    font-size: 24px;
+    color: #35A07C;
+}
+.addButton:hover{
+    transform: scale(1.2);
+    background-color: #35A07C;
+    border: 1px solid white;
+    color: white;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

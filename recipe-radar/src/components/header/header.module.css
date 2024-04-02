@@ -1,0 +1,11 @@
+.title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #2B3330;
+}
+.line{
+    border-color:#22CA92;
+    border-width: 0.5px;
+}
