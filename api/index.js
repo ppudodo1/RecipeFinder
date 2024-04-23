@@ -8,8 +8,7 @@ const port = 3000;
 app.use(cors())
 app.use(express.json());
 
-// Napraviti web scrape ili nesto da importam podatke o receptima u bazu
-// UI dizajn
+
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
